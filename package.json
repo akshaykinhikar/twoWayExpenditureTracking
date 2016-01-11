@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/akshaykinhikar/twoWayExpenditureTracking/issues"
   },
-  "homepage": "https://github.com/akshaykinhikar/twoWayExpenditureTracking#readme"
+  "homepage": "https://github.com/akshaykinhikar/twoWayExpenditureTracking#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
