@@ -1,0 +1,22 @@
+{
+  "name": "twowayexpendituretracking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshaykinhikar/twoWayExpenditureTracking.git"
+  },
+  "author": "akshaykinhikar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshaykinhikar/twoWayExpenditureTracking/issues"
+  },
+  "homepage": "https://github.com/akshaykinhikar/twoWayExpenditureTracking#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
