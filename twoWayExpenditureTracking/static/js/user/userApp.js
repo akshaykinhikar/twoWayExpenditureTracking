@@ -1,4 +1,4 @@
-var mudraApp = angular.module('mudraApp', ['ui.router']);
+var mudraApp = angular.module('mudraApp', ['mudraApp.controllers','ui.router']);
 
 mudraApp.config(function($stateProvider, $urlRouterProvider) {
   //
@@ -9,7 +9,8 @@ mudraApp.config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
     .state('accList', {
       url: "/acc_list",
-      templateUrl: "/static/html_templates/accountList.html"
+      templateUrl: "/static/html_templates/accountList.html",
+      controller: "mudraAppCtrl"
     })
     .state('accDetail', {
       url: "/accDetail",
